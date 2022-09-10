@@ -1,0 +1,3 @@
+"src/main.o"
+"src/system_stm32l0xx.o"
+"startup/startup_stm32l073xx.o"
