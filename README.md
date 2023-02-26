@@ -16,7 +16,7 @@ Based on the temperature measurements from the STM will print the recalculated t
 <li> +5.1 C° to +25.0 C° -> orange </li>
 <li>      Above +25.1 C° -> red </li>
 </ul>
-Furthermore the STM sends the measured temperature via serial communication (USART) back to PC (USB2.0-Port). 
+Furthermore the STM sends the measured temperature via serial communication (USART) back to PC (USB2.0-Port). <br>
 By pressing the DOWN-BTemperature_Measurment_STM3210utton the measurment stops and ASCII Input can be recieved via USART which will displayed on the LCD.
 
 ## Project Status: 
