@@ -3,13 +3,7 @@
 ADC-Temperatur,LCD & USART-Connection on STM32L0x3
 The internal ADC temperature can be shown by pressing the UP-Button. <br>
 Based on the temperature measurements from the STM will print the recalculated temperature in Celsius on the HD44780 display. <br>
-Futhermore, the display changes the background-color according to the following list: <br>
-<ul>
-<li>-15.0 C° to +5.0  C° -> blue </li>
-<li> +5.1 C° to +15.0 C° -> yellow </li>
-<li> +5.1 C° to +25.0 C° -> orange </li>
-<li>      Above +25.1 C° -> red </li>
-</ul>
+Futhermore, the display changes the background-color according to the measured temperature. <br>
 Moreover, the STM sends the measured temperature via serial communication (USART) back to PC (USB2.0-Port). <br>
 By pressing the DOWN-Button the measurment stops and an ASCII Input can be recieved via USART which will displayed on the LCD.
 <br>
@@ -42,6 +36,14 @@ Temperature measurement via ADC starts by setting AD_START bit in the ADC Contro
 
 <a href="url"><img src="https://user-images.githubusercontent.com/55065075/221792786-114759cc-addb-4c61-b330-17f5bfa60236.png" height="auto" width="400" ></a>
 
+The images below show the serial output and the display of the temperature on the LCD. The ambient air of the microcontroller was strongly warmed up for demonstration purposes, a temperature increase from 21°C to 26°C can be seen. On the LCD, the background color changes from yellow to red when the limit of 25.1°C is exceeded. The temperature thresholds for the color change can be found in Table 2.2 (p. 7).
+Futhermore, the display changes the background-color according to the following list: <br>
+<ul>
+<li>-15.0 C° to +5.0  C° -> blue </li>
+<li> +5.1 C° to +15.0 C° -> yellow </li>
+<li> +5.1 C° to +25.0 C° -> orange </li>
+<li>      Above +25.1 C° -> red </li>
+</ul>
 <a href="url"><img src="https://user-images.githubusercontent.com/55065075/221793057-7451cd50-56cf-42e1-9643-832a9ae1fab0.png" height="auto" width="400" ></a>
 <a href="url"><img src="https://user-images.githubusercontent.com/55065075/221793091-3d1fbc49-c171-4874-a7fe-a051629c163a.png"  height="auto" width="400" ></a>
 
