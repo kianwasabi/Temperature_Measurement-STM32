@@ -1,4 +1,4 @@
-# Temperature Measurment with STM32L0x3:
+# Temperature Measurement with STM32L0x3:
 
 STM32L0x3_ADCTEMP_LCD_USART
 The internal ADC temperature can be shown by pressing the UP-Button. <br>
