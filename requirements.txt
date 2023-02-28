@@ -1,0 +1,3 @@
+/libs
+lcd_shield_lib
+nucleo-l073rz_hal_lib
