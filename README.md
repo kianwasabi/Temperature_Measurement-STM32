@@ -1,4 +1,4 @@
-# STM3210TemperatureMeasurment
+# Temperature Measurment with STM32L0x3:
 
 STM32L0x3_ADCTEMP_LCD_USART
 The internal ADC temperature can be shown by pressing the UP-Button. <br>
@@ -38,7 +38,15 @@ Temperature measurement via ADC starts by setting AD_START bit in the ADC Contro
 
 ## Result: 
 
+<img width="689" alt="Screenshot 2023-02-27 at 23 14 46" src="https://user-images.githubusercontent.com/55065075/221792761-ace1eadf-ebc5-4459-9b89-097c171d75db.png">
 
+<img width="673" alt="Screenshot 2023-02-27 at 23 15 22" src="https://user-images.githubusercontent.com/55065075/221792786-114759cc-addb-4c61-b330-17f5bfa60236.png">
+
+<img width="691" alt="Screenshot 2023-02-27 at 23 17 05" src="https://user-images.githubusercontent.com/55065075/221792930-10396815-2ca2-4214-a7ac-43e28b230bea.png">
+
+<img width="695" alt="Screenshot 2023-02-27 at 23 16 00" src="https://user-images.githubusercontent.com/55065075/221793057-7451cd50-56cf-42e1-9643-832a9ae1fab0.png">
+
+<img width="709" alt="Screenshot 2023-02-27 at 23 15 50" src="https://user-images.githubusercontent.com/55065075/221793091-3d1fbc49-c171-4874-a7fe-a051629c163a.png">
 
 
 ## Project Status: 
