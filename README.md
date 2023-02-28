@@ -49,7 +49,7 @@ The images below show the serial output and the display of the temperature on th
 <br>
 By pressing the UP button, the serial reception is aborted and the temperature measurement starts again. On the LCD is signaled that the temperature measurement (mode 0) is activated. <br>
 When the temperature measurement is activated for the first time, ADC calibration and ADC activation (re-initialization) are performed and displayed on the LCD. The Re-initialization is only performed when switching from mode 1 to mode 0. <br>
-At the end, the temperature is displayed on the LCD as usual and returned serially, and the LCD backlight is adjusted according to the temperature.
+At the end, the temperature is displayed on the LCD as usual and returned serially, and the LCD backlight is adjusted according to the temperature.<br>
 <a href="url"><img src="https://user-images.githubusercontent.com/55065075/221792930-10396815-2ca2-4214-a7ac-43e28b230bea.png" height="auto" width="400" ></a>
 
 ## Project Status: 
