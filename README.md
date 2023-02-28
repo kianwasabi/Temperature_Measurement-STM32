@@ -37,8 +37,7 @@ The temperature measurement starts as soon as the microcontroller is connected t
 The temperature measurement preselected as the standard mode then starts automatically. The actual temperature measurement is preceded by a calibration process and the activation of the ADC. These steps will also be communicated to the user on the LCD, as shown below.<br>
 <a href="url"><img src="https://user-images.githubusercontent.com/55065075/221792786-114759cc-addb-4c61-b330-17f5bfa60236.png" height="auto" width="400" ></a>
 <br>
-The images below show the serial output and the display of the temperature on the LCD. The ambient air of the microcontroller was strongly warmed up for demonstration purposes, a temperature increase from 21°C to 26°C can be seen. On the LCD, the background color changes from yellow to red when the limit of 25.1°C is exceeded. The temperature thresholds for the color change can be found in Table 2.2 (p. 7).
-Futhermore, the display changes the background-color according to the following list: <br>
+The images below show the serial output and the display of the temperature on the LCD. The ambient air of the microcontroller was strongly warmed up for demonstration purposes, a temperature increase from 21°C to 26°C can be seen. On the LCD, the background color changes from yellow to red when the limit of 25.1°C is exceeded. The temperature thresholds for the color change: <br>
 <ul>
 <li>-15.0 C° to + 5.0 C°  blue </li>
 <li> +5.1 C° to +15.0 C°  yellow </li>
@@ -46,10 +45,12 @@ Futhermore, the display changes the background-color according to the following 
 <li>      Above +25.1 C°  red </li>
 </ul>
 <a href="url"><img src="https://user-images.githubusercontent.com/55065075/221793057-7451cd50-56cf-42e1-9643-832a9ae1fab0.png" height="auto" width="400" ></a>
-<a href="url"><img src="https://user-images.githubusercontent.com/55065075/221793091-3d1fbc49-c171-4874-a7fe-a051629c163a.png"  height="auto" width="400" ></a>
-
+<a href="url"><img src="https://user-images.githubusercontent.com/55065075/221793091-3d1fbc49-c171-4874-a7fe-a051629c163a.png"  height="auto" width="450" ></a>
+<br>
+By pressing the UP button, the serial reception is aborted and the temperature measurement starts again. On the LCD is signaled that the temperature measurement (mode 0) is activated. <br>
+When the temperature measurement is activated for the first time, ADC calibration and ADC activation (re-initialization) are performed and displayed on the LCD. The Re-initialization is only performed when switching from mode 1 to mode 0. <br>
+At the end, the temperature is displayed on the LCD as usual and returned serially, and the LCD backlight is adjusted according to the temperature.
 <a href="url"><img src="https://user-images.githubusercontent.com/55065075/221792930-10396815-2ca2-4214-a7ac-43e28b230bea.png" height="auto" width="400" ></a>
-
 
 ## Project Status: 
 Done.
