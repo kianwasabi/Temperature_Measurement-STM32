@@ -42,11 +42,10 @@ Temperature measurement via ADC starts by setting AD_START bit in the ADC Contro
 
 <a href="url"><img src="https://user-images.githubusercontent.com/55065075/221792786-114759cc-addb-4c61-b330-17f5bfa60236.png" height="auto" width="400" ></a>
 
-<a href="url"><img src="https://user-images.githubusercontent.com/55065075/221792930-10396815-2ca2-4214-a7ac-43e28b230bea.png" height="auto" width="400" ></a>
-
 <a href="url"><img src="https://user-images.githubusercontent.com/55065075/221793057-7451cd50-56cf-42e1-9643-832a9ae1fab0.png" height="auto" width="400" ></a>
-
 <a href="url"><img src="https://user-images.githubusercontent.com/55065075/221793091-3d1fbc49-c171-4874-a7fe-a051629c163a.png"  height="auto" width="400" ></a>
+
+<a href="url"><img src="https://user-images.githubusercontent.com/55065075/221792930-10396815-2ca2-4214-a7ac-43e28b230bea.png" height="auto" width="400" ></a>
 
 
 ## Project Status: 
