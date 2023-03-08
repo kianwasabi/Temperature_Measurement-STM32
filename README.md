@@ -1,6 +1,6 @@
 # Temperature Measurement with STM32L0x3:
 
-ADC-Temperatur,LCD & USART-Connection on STM32L0x3
+ADC-Temperatur,LCD & USART-Connection on STM32L0x3<br>
 The internal ADC temperature can be shown by pressing the UP-Button. <br>
 Based on the temperature measurements from the STM will print the recalculated temperature in Celsius on the HD44780 display. <br>
 Futhermore, the display changes the background-color according to the measured temperature. <br>
