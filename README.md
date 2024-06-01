@@ -57,6 +57,3 @@ Done.
 
 ## Built with:
 C & Assembly
-
-## Author:
-Kian David Warias
